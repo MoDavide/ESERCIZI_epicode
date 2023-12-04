@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 2px 15px #eeeeee; 
+}
+
+.logoMedium{
+    width: 300px;
+}
+
+.headerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 25%;
+}
+
+.resumeButton{
+    border-radius: 20px;
+    padding: 2%;
+    background-color: white;
+    border-color: rgb(227, 227, 227);
+    border-style:groove;
+}
+
+.tButton{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding-left: 3.7% ;
+    padding-right: 3.7%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-style: none;
+}
+
+.navbarContainer{
+
+}
+
+.textContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    width: 45%;
+}
+
+h5{
+   margin: 8px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.article h3{
+    margin: 0;
+}
+
+.article h6{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.article p{
+    margin: 3px 0 8px 0;
+    font-size: small;
+    color: rgb(152, 152, 152);
+    font-weight: lighter;  
+}
+
+.reactButton{
+    border-radius: 15px;
+    border-style: none;
+    color: rgb(152, 152, 152);
+}
+
+
+header{
+    position: relative;
+}
+
+.sectionOne{
+    display: flex; 
+}
+
+.divSectionOne{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+
+.img1{
+    position: absolute;
+    left: 650px;
+    top: 250px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.img2{
+    position: absolute;
+    left: 650px;
+    top: 400px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.img3{
+    position: absolute;
+    left: 650px;
+    top: 550px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.divSectionTwo{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid rgb(225, 225, 225);
+    position: absolute;
+    top: 80px;
+    right: 30px;
+}
+
+
+
+.divSectionTwo h4{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.divSectionTwo button{
+    position: absolute;
+    top: 170px;
+    left: 85px;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    gap: 10px;
+
+}
+
+.divSectionTwo h6{
+    position: absolute;
+    height: 15px;
+    width: 65px;
+    margin: 0 0 5px 0;
+    top: 235px;
+    left: 150px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    color: rgb(201, 201, 201) ;
+}
+
+.boxButtons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+    
+}
+
+ 
