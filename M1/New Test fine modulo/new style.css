@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.containerNavbar{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 2px 15px #e2e2e2;
+    gap: 200px;
+    margin-bottom: 15px;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.resumeButton{
+    border-radius: 25px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tButton{
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    padding: 5.5px 9px 5.5px 9px;
+    border: none;
+}
+
+main{
+    display: flex;
+    height: 700px;
+    width: 1265px;
+
+}
+
+.divBlu{
+    width: 865px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-right: 15px;
+    
+    
+}
+
+.divRosso{
+    width: 400px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid black;
+    margin-left: 15px;
+}
+
+.subHeader{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid black;
+    margin-left: 160px;
+       
+}
+.subHeader h5{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px 80px 0 160px;
+    width: 500px;
+    
+}
+
+.react{
+    border-radius: 10px;
+    border-style: none;
+    color: grey;
+}
+.webDevelopment{
+    border-radius: 10px;
+    border-style: none;
+    color: grey;
+}
+.reacts{
+    border-radius: 10px;
+    border-style: none;
+    color: grey;
+}
+
+.article h6{
+    margin: 5px 0 0 0;
+
+}
+.article h3{
+    margin: 5px 0 5px 0;
+   
+}
+.article h5{
+    margin: 0;
+    font-weight: 100;
+    color: rgb(143, 143, 143);
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+.immagine{
+    display: flex;
+    object-fit: cover;
+    width: 130px;
+    height: 90px;  
+}
+
+.contenitoreAlto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 450;
+    border-bottom: 1px solid black;
+    margin: 0 50px 0 50px;
+    
+}
+.logoDue{
+    width: 50px;
+    height: 50px;
+}
+
+.contenitoreAlto h4{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+    width: 300px;
+}
+.connectTwitter{
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+.contenitoreAlto h6{
+    border-bottom: 1px solid grey;
+    color: gray;
+    font-weight: 100;
+}
+
+.containerButton{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 150px;
+    margin-left: 50px;
+    gap: 10px;
+}
+.containerButton button{
+    height: 30px;
+    border-radius: 25px;
+    padding: 7px 15px 7px 15px;
+    border: none;
+    
+}
+.containerButton h4{
+    margin-bottom: 0;
+}
+.containerButton div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.whoTheFollow{
+    margin: 50px 0px 0px 50px;
+}
+.whoTheFollow h4{
+    
+}
+.containerFollowButton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    gap: 35px;
+    
+}
+.containerFollowButton button{
+    width: 70px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border-color: rgb(189, 189, 189);
+}
+.containerFollowButton h6{
+    display: flex;
+    gap: 180px;
+    margin: 0;
+}
+.lessig{
+    padding-right: 56px;
+
+}
+.DavideWine{
+    padding-right: 10px;
+
+}
+    
+
+
