@@ -1,0 +1,21 @@
+1-) ReactJS é una libreria di Java Script per la creazione dell'interfaccia utente, sviluppato da Meta.
+   Viene detto anche che ReactJS é un framework di Java Script. Non é sbagliato ma spesso il confine tra framework e librerie
+   é molto sottile, come in questo caso.
+
+2-)Falso
+
+3-)Molte informazioni utili, come ad esempio l'elenco di tutte le dipendenze richieste dall'applicazione
+
+4-)Falso
+
+5-)npx create-react-app test
+
+6-)Un blocco di logico/contenuto codice riutilizzabile all'interno dell'applicazione
+
+7-)Falso
+
+8-)Vero
+
+9-)Vero
+
+10-)Sono proprietà contenute in un oggetto accessibile attraverso i parametri della funzione
